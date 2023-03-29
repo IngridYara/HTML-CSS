@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h1 {
+
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+h2 {
+
+    color: blue;
+}
+
+p {
+    text-align: justify;
+}

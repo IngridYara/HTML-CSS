@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*  # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+*/
+body {  
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 35, 35);
+}
+
+h2 {
+    color: rgb(255, 93, 196);
+}
+
+h1#principal {
+
+    text-align: center;
+}
+
+.basico {
+
+    color: blueviolet;
+}
+
+.intermediario {
+
+    color: rgb(0, 18, 180);
+}
+
+.destaque{
+
+    background-color: rgb(249, 211, 211);
+
+} 
