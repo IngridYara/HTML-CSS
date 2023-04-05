@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            
+        }
+
+        .numero{
+
+            text-align: right;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minha primeira Tabela</h1>
+
+    <!--Hierarquia de Tabela
+    
+        Table - Tabela
+        Table row - linhas de tabela
+        Table Header - cabeçalho de tabela
+        Table date - dados de tabela
+        
+    -->
+
+    <!--Pra criar várias tr e td de uma vez, é só usar o  * .
+
+        Exemplo : 
+
+            <table>
+
+             tr*4>td*3
+
+            </table>
+
+    á cria 4 tr e 3 td-->
+    <table>
+
+        <tr> <!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr >
+            <td>A2</td>
+            <td class="numero">233</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td class="numero">143 </td>
+        </tr>
+
+
+    </table>
+    
+</body>
+</html>
